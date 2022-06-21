@@ -15,16 +15,21 @@ h2{
     font-weight: 400;
     line-height: 100%;
     letter-spacing: -0.02em;
+    color: var(--main-text);
 }
 h3{
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
+    color: var(--main-text);
+    
 }
 p{
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    color: var(--secondary-text);
+    opacity: 0.8;
 }
 
 ul{
@@ -44,7 +49,6 @@ hr{
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    
 }
 .spoiler-head.active h3 {
     color: var(--primary);
@@ -59,11 +63,6 @@ hr{
 .spoiler-content.active
 {
     max-height: 100%;
-}
-
-.spoiler-content p {
-    color: var(--secondary-text);
-    opacity: 0.8;
 }
 
 .close {
@@ -133,7 +132,7 @@ hr{
 
     .close {
     
-        width: 8px;
+        width: 15   px;
         height: 15px;
     }
     .close:before,
