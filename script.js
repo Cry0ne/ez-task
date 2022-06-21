@@ -1,5 +1,4 @@
-function SpoilerToggle(e) {
-    let element = e;
-    element.className += " active";
-    console.log(element.className);
+function SpoilerToggle(element) {
+    element.classList.toggle("active");
+    element.nextElementSibling.classList.toggle("active");
 }
