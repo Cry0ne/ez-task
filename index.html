@@ -1,8 +1,31 @@
 <html lang="en">
     <head>
+        <meta charset="utf-8">
         <title>test</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
     <body>
-       
+       <h2>Lorem ipsum</h2>
+       <div>
+            <ul>
+                <li>
+                    <div class="spoiler">
+                        <h3 onclick={SpoilerToggle(this)} id="spoiler" class="spoiler-head">Test</h3>
+                        <p class="spoiler-content">
+                            qeweywey
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="spoiler">
+                        <h3 onclick={SpoilerToggle(this)} id="spoiler" class="spoiler-head">1Test</h3>
+                        <p class="spoiler-content">
+                            rewyey
+                        </p>
+                    </div>
+                </li>
+            </ul>
+       </div>
     </body>
 </html>
