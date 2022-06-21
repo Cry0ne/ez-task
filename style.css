@@ -66,9 +66,12 @@ hr{
 }
 
 .close {
-    
-    width: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
     height: 20px;
+    
 }
 .close:before,
 .close:after {
@@ -132,7 +135,7 @@ hr{
 
     .close {
     
-        width: 15   px;
+        width: 15px;
         height: 15px;
     }
     .close:before,
